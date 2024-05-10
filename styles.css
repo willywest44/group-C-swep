@@ -1,0 +1,154 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: white;
+    color: #ffffff;
+    background: url("./pexels-idriss-meliani-2982449.jpg") no-repeat;
+    background-size: cover;
+    background-position: justify;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+    color: rgb(147, 147, 147);
+  }
+  
+  /* Header styles */
+  header {
+   /* background-color: #44434300;*/
+    padding: 30px;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    color: #100c0c;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+
+  }
+  .hero h1{
+    background-color: #0707086d;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    width: -100px;
+    margin: auto;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+  /* Features section styles */
+  .features {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .feature {
+    margin-bottom: 30px;
+  }
+  
+  .feature h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 16px;
+  }
+  
+  /* CTA section styles */
+  .cta {
+    background-color: #5555557a;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .cta h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .cta form {
+    margin-top: 20px;
+  }
+  
+  .cta input[type="email"] {
+    padding: 10px;
+    width: 250px;
+  }
+  
+  .cta button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta button:hover {
+    background-color: #555;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
